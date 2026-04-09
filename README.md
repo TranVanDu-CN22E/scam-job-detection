@@ -98,7 +98,14 @@ PhoBERT classify scam / safe
 ```
 
 ---
+📥 Download Models
 
+Tải model scam PhoBert tại đây:
+
+[https://drive.google.com/file/d/1WF1jI9MexZsbYMr2AKqegOZi2O18MVRr/view?usp=drive_link](https://drive.google.com/file/d/1WF1jI9MexZsbYMr2AKqegOZi2O18MVRr/view?usp=sharing)
+
+Sau khi tải về, giải nén và đặt vào thư mục project theo cấu trúc:
+phobert-scam/
 # 📁 Project Structure
 
 ```
@@ -107,9 +114,9 @@ CheckScam/
 │  ├─ added_tokens.json
 │  ├─ bpe.codes
 │  ├─ config.json
-│  ├─ model.safetensors
+│  ├─ model.safetensors <-- Găn model vào đây sau khi tải tại Drive
 │  ├─ tokenizer_config.json
-│  ├─training_args.bin
+│  ├─ training_args.bin
 │  └─ vocab.txt
 ├─ src/
 │  ├─ collate.py
