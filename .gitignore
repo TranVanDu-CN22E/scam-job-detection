@@ -1,0 +1,12 @@
+# Python
+
+**pycache**/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual env
+
+venv/
+.env
+model.safetensors
